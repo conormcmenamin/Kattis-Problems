@@ -19,7 +19,7 @@ public class Celverta {
 		}else if(ar[0].getX()==ar[2].getX()){
 			ar[3].setX(ar[1].getX());
 		}else if(ar[1].getX()==ar[2].getX()){
-			ar[3].setX(ar[3].getX());
+			ar[3].setX(ar[0].getX());
 		}
 		
 		if(ar[0].getY()==ar[1].getY()) {
